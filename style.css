@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1549545931-59bf067af9ab?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fHRoZXJlJTIwaXMlMjBubyUyMGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800");
+    background-position:initial;  
+}
+
+#container {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform-origin: center center;  
+}
+/* çift tıklandığı zaman ekrana gelecek yazı */
+.winner {
+    text-align: center;
+    font-size: 50px;
+    color:red;
+    background-color: white;
+    position: absolute;
+
+}

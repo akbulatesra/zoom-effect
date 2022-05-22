@@ -1,0 +1,1 @@
+Resimin üzerine geldiğinizde zoom özelliği sayesinde kediyi daha kolay bulabileceksiniz. Bulduğunuzda çift tıklamayı unutmayın! :)
